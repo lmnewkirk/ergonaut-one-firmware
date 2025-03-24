@@ -10,7 +10,7 @@ on:
       - .github/workflows/draw-keymaps.yml
 
 permissions:
-  contents: read
+  contents: write
   
 jobs:
   draw:
