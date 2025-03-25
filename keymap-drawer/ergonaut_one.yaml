@@ -39,7 +39,7 @@ layers:
   - {t: \, h: Ctrl}
   - {t: LCMD, h: FUNC}
   - {t: ↹, h: MED}
-  - {t: ⏎, h: NUM}
+  - {t: ⏎, h: NAV}
   - ␣
   - {t: BACKSPACE, h: '&lt 1', s: DELETE}
   - {t: RMETA, h: SYM}
@@ -82,7 +82,7 @@ layers:
   - RIGHT CONTROL
   - {t: ▽, type: trans}
   - '0'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
@@ -171,7 +171,7 @@ layers:
   - {type: held}
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   FUNC:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -258,6 +258,92 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  BT:
+  - Boot
+  - '&studio_unlock'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&studio_unlock'
+  - Boot
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR
+  - Reset
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Reset
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  GAME:
+  - ESCAPE
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - RIGHT ALT
+  - LSHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ''''
+  - RSHIFT
+  - Ctrl
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: \, h: Ctrl}
+  - {t: LCMD, h: FUNC}
+  - {t: ↹, h: MED}
+  - ␣
+  - {t: ENTER, h: NAV}
+  - {t: BACKSPACE, h: '&lt 1', s: DELETE}
+  - Gui
 combos:
 - p: [19, 20]
   k: )
@@ -280,3 +366,6 @@ combos:
 - p: [12, 23]
   k: Caps Word
   l: [MAIN]
+- p: [38, 39]
+  k: {t: GAME, h: toggle}
+  l: [MAIN, GAME]
