@@ -98,10 +98,10 @@
         default_layer {
             display-name = "MAIN";
             bindings = <
-&mt LGUI RBKT    &kp Q  &kp W  &kp E        &kp R            &kp T        &kp Y      &kp U          &kp I        &kp O    &kp P     &kp LBKT
-&mt LCTRL GRAVE  &kp A  &kp S  &kp D        &kp F            &kp G        &kp H      &kp J          &kp K        &kp L    &kp SEMI  &mt RCTRL SQT
-&mt LALT MINUS   &kp Z  &kp X  &kp C        &kp V            &kp B        &kp N      &kp M          &kp COMMA    &kp DOT  &kp FSLH  &mt RALT BSLH
-                               &lt RSE TAB  &mt LSHFT SPACE  &lt LWR RET  &kp SPACE  &bksp_num 1 0  &lt RSE DEL
+&kp LEFT_ALT      &kp Q  &kp W  &kp E       &kp R      &kp T        &kp Y      &kp U          &kp I          &kp O    &kp P     &kp RIGHT_ALT
+&kp LSHIFT        &kp A  &kp S  &kp D       &kp F      &kp G        &kp H      &kp J          &kp K          &kp L    &kp SQT   &kp RSHIFT
+&mt LCTRL ESCAPE  &kp Z  &kp X  &kp C       &kp V      &kp B        &kp N      &kp M          &kp COMMA      &kp DOT  &kp FSLH  &mt RCTRL BACKSLASH
+                                &lt 4 LCMD  &lt 5 TAB  &lt LWR RET  &kp SPACE  &bksp_num 1 0  &lt RSE RMETA
             >;
         };
 
@@ -115,8 +115,8 @@
             >;
         };
 
-        raise_layer {
-            display-name = "NUM";
+        sym_layer {
+            display-name = "SYM";
             bindings = <
 &mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &kp CLCK
 &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp C_MUTE    &kp LEFT  &kp UP     &kp RIGHT  &kp INS          &mt RCTRL K_APP
@@ -125,14 +125,36 @@
             >;
         };
 
-        adjust_layer {
-            display-name = "ADJ";
+        nav_layer {
+            display-name = "NAV";
             bindings = <
 &bootloader  &studio_unlock  &none         &none         &none         &none         &none         &none         &none         &none         &studio_unlock  &bootloader
 &bt BT_CLR   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0    &bt BT_CLR
 &sys_reset   &none           &none         &none         &none         &none         &none         &none         &none         &none         &none           &sys_reset
                                            &trans        &none         &trans        &none         &trans        &trans
             >;
+        };
+
+        func_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "FUNC";
+        };
+
+        media_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "MED";
         };
     };
 };
