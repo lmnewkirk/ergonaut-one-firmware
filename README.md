@@ -10,7 +10,6 @@ Below representation was generated with [`keymap-drawer`](https://github.com/cak
 
 ![Keymap Representation](./keymap-drawer/ergonaut_one.svg?raw=true "Keymap Representation")
 
-This layout is heavily inspired from [Watchman 42-key layout](https://github.com/aroum/Watchman-layouts)
 
 ## FAQ
 
