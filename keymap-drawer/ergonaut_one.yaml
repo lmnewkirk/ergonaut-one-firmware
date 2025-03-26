@@ -44,7 +44,7 @@ layers:
   - {t: BACKSPACE, h: '&lt 1', s: DELETE}
   - {t: '&alt_spc', h: '&lt 2'}
   NUM:
-  - {t: F1, h: LEFT ALT}
+  - ↹
   - '`'
   - '7'
   - '8'
@@ -55,7 +55,7 @@ layers:
   - F9
   - F10
   - F11
-  - RIGHT ALT
+  - {t: F12, h: RIGHT ALT}
   - {t: +, h: Shift}
   - '|'
   - '4'
@@ -80,55 +80,55 @@ layers:
   - '9'
   - '0'
   - RIGHT CONTROL
-  - {t: ▽, type: trans}
+  - ␣
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ␣
   - ''
   - {t: ▽, type: trans}
   SYM:
-  - {t: KP NUM, h: Gui}
+  - ↹
   - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
+  - Sft+KP 7
+  - Sft+KP 8
+  - Sft+KP 9
   - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - {t: F10, h: toggle}
+  - LEFT SHIFT
+  - '='
+  - Sft+KP 4
+  - Sft+KP 5
+  - Sft+KP 6
   - KP PLUS
-  - MUTE
-  - ←
-  - ↑
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
-  - End
-  - ↓
-  - Page Down
-  - Pause Break
-  - Alt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F4
+  - F5
+  - F6
+  - F11
+  - Ctrl
+  - _
+  - Sft+1
+  - Sft+KP 2
+  - Sft+KP 3
+  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F12
+  - {t: ▽, type: trans}
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   NAV:
   - Boot
   - '&studio_unlock'
@@ -313,7 +313,7 @@ layers:
   - I
   - O
   - P
-  - RIGHT ALT
+  - {t: PLAY PAUSE, h: RIGHT ALT}
   - LSHIFT
   - A
   - S
@@ -338,12 +338,12 @@ layers:
   - .
   - /
   - {t: \, h: Ctrl}
-  - {t: LCMD, h: FUNC}
+  - {t: '&gui_spc', h: LEFT GUI}
   - {t: ↹, h: MED}
   - ␣
   - {t: ENTER, h: NAV}
   - {t: BACKSPACE, h: '&lt 1', s: DELETE}
-  - Gui
+  - {t: '&alt_spc', h: '&lt 2'}
 combos:
 - p: [19, 20]
   k: )
@@ -367,5 +367,5 @@ combos:
   k: Caps Word
   l: [MAIN]
 - p: [38, 39]
-  k: {t: GAME, h: toggle}
-  l: [MAIN, GAME]
+  k: {t: MAIN, h: toggle}
+  l: [MAIN]
