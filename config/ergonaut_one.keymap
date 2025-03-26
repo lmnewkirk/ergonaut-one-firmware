@@ -18,7 +18,7 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        tri-layer {
+        backup-bt {
             if-layers = <1 2>;
             then-layer = <4>;
         };
