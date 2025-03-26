@@ -84,7 +84,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - ␣
-  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYM:
   - ↹
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
   NAV:
   - Boot
   - {t: ▽, type: trans}
