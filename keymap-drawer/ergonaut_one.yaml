@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - RIGHT ALT
+  - {t: PLAY PAUSE, h: RIGHT ALT}
   - LSHIFT
   - A
   - S
@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - {t: \, h: Ctrl}
-  - {t: LCMD, h: FUNC}
+  - {t: '&gui_spc', h: LEFT GUI}
   - {t: ↹, h: MED}
   - {t: ⏎, h: NAV}
   - ␣
   - {t: BACKSPACE, h: '&lt 1', s: DELETE}
-  - {t: RMETA, h: SYM}
+  - {t: '&alt_spc', h: '&lt 2'}
   NUM:
   - {t: F1, h: LEFT ALT}
   - '`'
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   NAV:
   - Boot
   - '&studio_unlock'
@@ -209,7 +209,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
