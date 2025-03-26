@@ -147,7 +147,7 @@ layers:
   - Gui+4
   - Gui+5
   - Gui+6
-  - BT 5
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - ↓
   - UP ARROW
@@ -185,7 +185,7 @@ layers:
   - BT 3
   - BT 5
   - Boot
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -196,19 +196,19 @@ layers:
   - VOLUME UP
   - ⏭️
   - PLAY PAUSE
+  - RIGHT SHIFT
+  - {t: BT CLR, s: BT CLR ALL}
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - MUTE
-  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR
+  - OUT TOG
+  - {t: BT CLR, s: BT CLR ALL}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
