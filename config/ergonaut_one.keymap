@@ -8,7 +8,10 @@
 #define RSE 2
 #define ADJ 3
 
-&lt { quick-tap-ms = <200>; };
+&lt {
+    quick-tap-ms = <200>;
+    flavor = "balanced";
+};
 
 &mt { quick-tap-ms = <200>; };
 
@@ -75,6 +78,16 @@
             key-positions = <38 39>;
             layers = <0>;
         };
+
+        mcomm_colon {
+            bindings = <&kp COLON>;
+            key-positions = <32 31>;
+        };
+
+        commdot_semi {
+            bindings = <&kp SEMI>;
+            key-positions = <32 33>;
+        };
     };
 
     behaviors {
@@ -94,8 +107,9 @@
 
             #binding-cells = <2>;
             hold-trigger-key-positions = <40>;
-            flavor = "balanced";
+            flavor = "hold-preferred";
             tapping-term-ms = <100>;
+            quick-tap-ms = <100>;
         };
 
         gui_spc_ht: gui_spc_ht {
