@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   GAME:
-  - ESCAPE
+  - {t: ESCAPE, h: LEFT ALT}
   - Q
   - W
   - E
