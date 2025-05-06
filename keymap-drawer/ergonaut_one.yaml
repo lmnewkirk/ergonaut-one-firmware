@@ -196,7 +196,7 @@ layers:
   - VOLUME UP
   - ⏭️
   - PLAY PAUSE
-  - RIGHT SHIFT
+  - Reset
   - {t: BT CLR, s: BT CLR ALL}
   - OUT TOG
   - {t: ▽, type: trans}
