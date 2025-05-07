@@ -176,37 +176,37 @@ layers:
   - Boot
   - BT 1
   - BT 2
+  - BT 3
   - BT 4
   - BT 5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - BT 1
   - BT 2
   - BT 3
+  - BT 4
   - BT 5
   - Boot
   - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
   - PREVIOUS
   - Vol Down
   - VOLUME UP
   - ⏭️
   - PLAY PAUSE
-  - Reset
+  - RIGHT SHIFT
   - {t: BT CLR, s: BT CLR ALL}
   - OUT TOG
-  - {t: ▽, type: trans}
+  - Reset
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Reset
   - OUT TOG
   - {t: BT CLR, s: BT CLR ALL}
   - {t: ▽, type: trans}
