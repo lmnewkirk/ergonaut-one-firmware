@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - {t: \, h: Ctrl}
-  - {t: '&gui_spc', h: LEFT GUI}
+  - LEFT GUI
   - {t: ↹, h: MED}
   - {t: ⏎, h: NAV}
   - ␣
-  - {t: BACKSPACE, h: '&lt 1', s: DELETE}
-  - {t: '&alt_spc', h: '&lt 2'}
+  - {t: BACKSPACE, h: NUM}
+  - {t: ESCAPE, h: SYM}
   NUM:
   - ↹
   - '`'
@@ -84,7 +84,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - ␣
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   SYM:
   - ↹
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   NAV:
   - Boot
   - {t: ▽, type: trans}
@@ -256,7 +256,7 @@ layers:
   - {t: ↹, h: MED}
   - ␣
   - {t: ENTER, h: NAV}
-  - {t: BACKSPACE, h: '&lt 1', s: DELETE}
+  - {t: '0', h: '&lt 1'}
   - {t: '&alt_spc', h: '&lt 2'}
 combos:
 - p: [19, 20]
