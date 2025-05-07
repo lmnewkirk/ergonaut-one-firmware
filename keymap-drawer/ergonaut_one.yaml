@@ -82,18 +82,18 @@ layers:
   - RIGHT CONTROL
   - ␣
   - '0'
-  - {t: ▽, type: trans}
+  - '-'
   - ␣
   - {type: held}
   - {t: ▽, type: trans}
   SYM:
   - ↹
   - KP SLASH
-  - Sft+KP 7
-  - Sft+KP 8
-  - Sft+KP 9
+  - Sft+7
+  - Sft+8
+  - Sft+9
   - KP MINUS
-  - {t: ▽, type: trans}
+  - Reset
   - {t: ▽, type: trans}
   - F7
   - F8
@@ -101,11 +101,11 @@ layers:
   - {t: F10, h: toggle}
   - LEFT SHIFT
   - '='
-  - Sft+KP 4
-  - Sft+KP 5
-  - Sft+KP 6
+  - Sft+4
+  - Sft+5
+  - Sft+6
   - KP PLUS
-  - {t: ▽, type: trans}
+  - Boot
   - {t: ▽, type: trans}
   - F4
   - F5
@@ -114,8 +114,8 @@ layers:
   - Ctrl
   - _
   - Sft+1
-  - Sft+KP 2
-  - Sft+KP 3
+  - Sft+2
+  - Sft+3
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
