@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   NAV:
-  - Boot
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+7
   - Gui+8
@@ -154,7 +154,7 @@ layers:
   - →
   - PAGE DOWN
   - PAGE UP
-  - Reset
+  - {t: ▽, type: trans}
   - ''
   - Gui+1
   - Gui+2
@@ -165,7 +165,7 @@ layers:
   - ''
   - ''
   - ''
-  - Reset
+  - {t: ▽, type: trans}
   - LEFT GUI
   - Gui+0
   - {type: held}
