@@ -72,7 +72,7 @@
         game_mode {
             bindings = <&tog 5>;
             key-positions = <38 39>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         mcomm_colon {

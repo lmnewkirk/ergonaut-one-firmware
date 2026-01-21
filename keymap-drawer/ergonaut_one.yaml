@@ -282,7 +282,7 @@ combos:
   l: [MAIN]
 - p: [38, 39]
   k: {t: GAME, h: toggle}
-  l: [MAIN]
+  l: [MAIN, GAME]
 - p: [32, 31]
   k: ':'
 - p: [32, 33]
