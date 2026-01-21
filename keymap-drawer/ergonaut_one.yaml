@@ -256,7 +256,7 @@ layers:
   - {t: ↹, h: MED}
   - ␣
   - {t: ENTER, h: NAV}
-  - {t: '0', h: '&lt 1'}
+  - {t: BACKSPACE, h: '&lt 1'}
   - {t: '&alt_spc', h: '&lt 2'}
 combos:
 - p: [19, 20]
